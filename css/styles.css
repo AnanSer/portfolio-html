@@ -872,7 +872,7 @@ Products Page
 
 .single-project:hover {
   transform: translateY(-0.8rem);
-  background-color: var(--clr-primary-8);
+  background-color: var(--clr-primary-9);
 }
 
 .project-container img {
