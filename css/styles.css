@@ -867,7 +867,14 @@ Products Page
 .single-project {
   background: var(--clr-grey-10);
   border-radius: var(--radius);
+  transition: all 0.3s;
 }
+
+.single-project:hover {
+  transform: translateY(-0.8rem);
+  background-color: var(--clr-primary-8);
+}
+
 .project-container img {
   border-top-left-radius: var(--radius);
   border-top-right-radius: var(--radius);
@@ -1046,63 +1053,3 @@ textarea {
 .scroll-up-button:hover {
   background-color: rgba(159, 214, 87, 0.8);
 }
-
-/* 
-.section-4 {
-  width: 100%;
-  height: 100vh;
-  background-color: #333;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
-.section-4-heading {
-  color: #fff;
-  box-shadow: none;
-  border-color: #fff;
-  margin-bottom: 5rem;
-}
-
-.contact-form {
-  width: 50rem;
-  flex-direction: column;
-}
-
-.contact-form input,
-.contact-form textarea {
-  width: 100%;
-  padding: 0.5rem;
-  margin: 0.5rem 0;
-  background-color: #eef;
-  font-size: 1.5rem;
-  border: 0.2rem solid hsl(42, 78%, 60%);
-  color: #555;
-}
-
-.contact-form textarea {
-  height: 10rem;
-  max-height: 15rem;
-  max-width: 100%;
-}
-
-.contact-form .contact-form-btn {
-  background-color: hsl(42, 78%, 60%);
-  color: #fff;
-  text-transform: uppercase;
-  letter-spacing: 1rem;
-  cursor: pointer;
-}
-
-.contact-form-btn:hover {
-  background-color: hsl(41, 26%, 36%);
-  color: #eee;
-  border: 0.2rem solid hsl(41, 17%, 33%);
-}
-
-@media screen and (max-width: 992px) {
-  .contact-form {
-    width: 35rem;
-  }
-} */
